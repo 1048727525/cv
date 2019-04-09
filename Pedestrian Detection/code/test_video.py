@@ -4,7 +4,7 @@ import cv2
 t1 = cv.getTickCount()
 basic_path = r"C:/Users/WangZhuo/Desktop"  # 文件夹所在目录
 hog = cv2.HOGDescriptor()
-hog.load('myHogDector.bin')
+hog.load('myHogDector_1.bin')
 cap = cv.VideoCapture("1.avi")
 i = 0
 while True:
